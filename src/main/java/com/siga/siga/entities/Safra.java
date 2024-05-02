@@ -15,6 +15,9 @@ public class Safra {
     @Column(name = "cultura")
     private String cultura;
 
+    public void setId(Long id) {
+        this.id = id;
+    }
     // Outros atributos e métodos
 }
 
