@@ -9,7 +9,7 @@ import java.time.LocalDate;
 
 @Entity
 @Data
-public class Safra {
+public class SafraModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
